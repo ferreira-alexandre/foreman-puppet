@@ -1,0 +1,37 @@
+2016-01-13 Release 0.4.2
+- implement the 'Anchor Pattern' for correct class containment
+
+2016-01-12 Release 0.4.1
+- hotfix for #24
+
+2015-12-07 Release 0.4
+- update metadata
+- improve systemd support
+- add $port parameter (from #18)
+- implement #16, #17 and #19:
+  - add $rcextensions parameter
+  - add $service_provider parameter
+  - add $whoosh_cronjob parameter
+
+2015-11-30 Release 0.3.1
+- auto-restart kallithea on failure when using systemd
+
+2015-07-28 Release 0.3.0
+- add $manage_git parameter
+- add $version parameter
+- add $config_hash parameter
+- Support for Debian 8
+
+2015-07-22 Release 0.2.8
+- Support for Fedora 19 and 20
+- Improve spec and acceptance tests
+- Fix #9 and #12
+
+2015-07-07 Release 0.2.7
+- Support for EL6
+- Support for puppet4
+- Improve spec tests
+
+2015-07-04 Release 0.2.6
+- Add support for Ubuntu 12.04, Ubuntu 14.04 and Debian 7
+- Various Code improvements
