@@ -1,6 +1,6 @@
-class programasbasicos ($ensure = 'latest'){
+class programasbasicos ($ensure = latest){
 
-  package { 'notepadplusplus':
+  package { 'notepadplusplus.install':
     ensure            => $ensure,
     provider          => 'chocolatey',
   }
