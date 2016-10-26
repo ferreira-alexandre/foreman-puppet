@@ -1,17 +1,17 @@
-class programasbasicos {
+class programasbasicos ($ensure = 'latest'){
 
   package { 'notepadplusplus':
-    ensure            => 'latest',
+    ensure            => $ensure,
     provider          => 'chocolatey',
   }
 
   package { 'googlechrome':
-    ensure            => 'latest',
+    ensure            => $ensure,
     provider          => 'chocolatey',
   }
 
   package { 'jre8':
-    ensure            => 'latest',
+    ensure            => $ensure,
     provider          => 'chocolatey',
   }
 
