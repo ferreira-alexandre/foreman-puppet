@@ -5,4 +5,14 @@ class programasbasicos {
     provider          => 'chocolatey',
   }
 
+  package { 'googlechrome':
+    ensure            => 'latest',
+    provider          => 'chocolatey',
+  }
+
+  package { 'jre8':
+    ensure            => 'latest',
+    provider          => 'chocolatey',
+  }
+
 }
