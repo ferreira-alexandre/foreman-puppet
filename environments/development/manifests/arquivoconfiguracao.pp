@@ -1,6 +1,6 @@
 class arquivoconfiguracao{
   file{ 'c:/configuracoes/configuracao.txt':
-    ensure  => 'present',
+    ensure  => 'file',
     content => 'Esta eh uma configuracao de DESENVOLVIMENTO',
   }
 }
